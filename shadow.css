@@ -1,0 +1,14 @@
+#box{
+    border: 1px solid red;
+    width: 300px;
+    height: 300px;
+    padding: 8px;
+    margin: 20px;
+    background: #009670;
+    box-shadow: 20px 20px 2px 20px rgba(0,0,0,0.1);
+}
+#box h1{
+    color: white;
+   /* text-shadow: 20px 20px red;*/
+   text-shadow: 20px 20px 2px rgba(0,0,0,0.5)
+}

@@ -1,0 +1,33 @@
+@keyframes animation-box {
+    from {
+        background: green;
+        border-radius: 0px;
+        top: 0;
+        left: 0;
+    }
+
+    to {
+        background: yellow;
+        border-radius: 300px;
+        top: 200px;
+        left: 200px;
+    }
+}
+
+#box {
+    width: 300px;
+    height: 300px;
+    background: red;
+    position: relative;
+    /* animation-name: animation-box;
+    animation-duration: 5s; /*The animation it will be for five seconds*/
+    /*animation-delay: 3s;    /*The animation it will start in 3 seconds*/
+    /*animation-iteration-count: 2;
+    animation-direction: alternate;*/
+
+    /*Its possible to make everithing toguether*/
+    -webkit-animation: animation-box 5s 3s 2 alternate;
+    -moz-animation: animation-box 5s 3s 2 alternate;
+    -o-animation: animation-box 5s 3s 2 alternate;
+    animation: animation-box 5s 3s 2 alternate;
+}

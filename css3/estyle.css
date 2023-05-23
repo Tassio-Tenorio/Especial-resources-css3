@@ -1,0 +1,32 @@
+/* #box{
+    width: 300px;
+    height: 300px;
+    background: #b9c941;
+    padding: 10px;
+    border-radius: 50px ;/*this feature serves to make the box round*/
+/*   margin:  10px;
+}*/
+
+#box {
+    width: 300px;
+    height: 300px;
+    background: #b9c941;
+    padding: 50px;
+    box-sizing: border-box;
+    /*When using this property, 
+    even if I use padding, the size 
+    of the box will be what I decided
+    on the width and height, but if 
+    I don't use it, the size of the
+    box will be what I decided plus
+    the padding.*/
+}
+
+#box2 {
+    width: 300px;
+    height: 300px;
+    background: #b9c941;
+
+
+
+}
